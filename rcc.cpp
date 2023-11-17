@@ -1,5 +1,6 @@
 #include "rcc.h"
 
+
 RCC_TypeDef* RCC_MemoryMapBase = (RCC_TypeDef*) RCC_BASE;
 
 rcc::rcc()
@@ -24,15 +25,12 @@ RCC_ErrorType_t rcc::RCC_gpioPortInit(RCC_GpioPortName_t gpioPortName)
 			RCC_MemoryMapBase->APB2ENR |= RCC_APB2ENR_IOPCEN;
 				errReturn = RCC_OK;
 			break;
-		case RCC_GPIO_PORT_D:
-			RCC_MemoryMapBase->APB2ENR |= RCC_APB2ENR_IOPDEN;
-				errReturn = RCC_OK;
-			break;
-		
+
 		default:
 				errReturn = RCC_DEFAULT_ERR;
 			break;
 	}
-	
+
 	return errReturn;
 }
+
