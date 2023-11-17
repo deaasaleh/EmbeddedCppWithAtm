@@ -1,7 +1,7 @@
 Dependencies for Project 'EmbeddedCppWithAtm', Target 'STM32F103c6': (DO NOT MODIFY !)
 CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
-F (.\rcc.cpp)(0x65561026)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C6-I.\RTE\_STM32F103c6-IC:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\rcc.o --omf_browse .\objects\rcc.crf --depend .\objects\rcc.d)
-I (rcc.h)(0x65560F19)
+F (.\rcc.cpp)(0x65572B30)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C6-I.\RTE\_STM32F103c6-IC:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\rcc.o --omf_browse .\objects\rcc.crf --depend .\objects\rcc.d)
+I (rcc.h)(0x655725C1)
 I (C:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61ADBFAE)
 I (.\RTE\_STM32F103c6\RTE_Components.h)(0x6555AF9C)
 I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
@@ -10,9 +10,11 @@ I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cms
 I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
 I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F912E)
 I (C:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61ADBFAE)
-F (.\rcc.h)(0x65560F19)()
-F (.\main.cpp)(0x655611B4)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C6-I.\RTE\_STM32F103c6-IC:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (rcc.h)(0x65560F19)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+F (.\rcc.h)(0x655725C1)()
+F (.\gpio.h)(0x65578682)()
+F (.\gpio.cpp)(0x6557781F)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C6-I.\RTE\_STM32F103c6-IC:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (gpio.h)(0x65578682)
 I (C:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61ADBFAE)
 I (.\RTE\_STM32F103c6\RTE_Components.h)(0x6555AF9C)
 I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
@@ -21,6 +23,20 @@ I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cms
 I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
 I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F912E)
 I (C:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61ADBFAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (rcc.h)(0x655725C1)
+F (.\main.cpp)(0x655784AA)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C6-I.\RTE\_STM32F103c6-IC:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (rcc.h)(0x655725C1)
+I (C:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61ADBFAE)
+I (.\RTE\_STM32F103c6\RTE_Components.h)(0x6555AF9C)
+I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F912E)
+I (C:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61ADBFAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B186A)
+I (gpio.h)(0x65578682)
 F (C:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver\DMA_STM32F10x.c)(0x5FC48D36)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C6-I.\RTE\_STM32F103c6-IC:\Users\Deyaa\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\dma_stm32f10x.o --omf_browse .\objects\dma_stm32f10x.crf --depend .\objects\dma_stm32f10x.d)
 I (C:\Users\Deyaa\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver\DMA_STM32F10x.h)(0x5FC0963A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)

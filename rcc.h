@@ -2,13 +2,13 @@
 #define RCC_H
 
 #include "stm32f10x.h"
+#include <stdio.h>
 
 enum RCC_GpioPortName_t
 {
 	RCC_GPIO_PORT_A,
 	RCC_GPIO_PORT_B,
-	RCC_GPIO_PORT_C,
-	RCC_GPIO_PORT_D,
+	RCC_GPIO_PORT_C
 };
 
 enum RCC_ErrorType_t
@@ -30,3 +30,5 @@ class rcc
 };
 
 #endif
+
+
