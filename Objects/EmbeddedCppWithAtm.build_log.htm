@@ -21,24 +21,24 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
 Dialog DLL:      TCM.DLL V1.36.5.0
  
 <h2>Project:</h2>
-D:\programming\IMT_EMB_SYS\Repo\EmbeddedCpp\EmbeddedCppWithAtm\EmbeddedCppWithAtm.uvprojx
+D:\IMT_EMB_SYS\Repo\EmbeddedCpp\EmbeddedCppWithAtm\EmbeddedCppWithAtm.uvprojx
 Project File Date:  11/17/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Rebuild target 'STM32F103c6'
 assembling startup_stm32f10x_ld.s...
+compiling system_stm32f10x.c...
 compiling main.cpp...
 compiling GPIO_STM32F10x.c...
 compiling rcc.cpp...
-compiling system_stm32f10x.c...
+compiling DMA_STM32F10x.c...
 compiling gpio.cpp...
 gpio.cpp(88): warning:  #940-D: missing return statement at end of non-void function "gpio::GPIO_PinInit" 
   }
 gpio.cpp(68): warning:  #177-D: variable "errReturn"  was declared but never referenced
   	GPIO_ErrorType_t errReturn = GPIO_DEFAULT_ERR;
 gpio.cpp: 2 warnings, 0 errors
-compiling DMA_STM32F10x.c...
 linking...
 Program Size: Code=1428 RO-data=272 RW-data=24 ZI-data=1632  
 FromELF: creating hex file...
@@ -76,8 +76,8 @@ Package Vendor: Keil
       Source file:   RTE_Driver\DMA_STM32F10x.c
 
    * Component: Keil::Device:GPIO:1.3
-      Source file:   RTE_Driver\GPIO_STM32F10x.c
       Include file:  RTE_Driver\GPIO_STM32F10x.h
+      Source file:   RTE_Driver\GPIO_STM32F10x.c
 
    * Component: Keil::Device:Startup:1.0.0
       Source file:   Device\Source\system_stm32f10x.c
